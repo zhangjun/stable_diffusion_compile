@@ -78,7 +78,7 @@ def refresh_unet(pipeline, model_path):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model_path', type=str, default='/dfs/comicai/jun.zhangg/models/sd_character/models/counterfeitXL_fix1024_0.4')
+    parser.add_argument('--model_path', type=str, default='/models/counterfeitXL')
     parser.add_argument('--s_prompt', type=str, default='')
     args = parser.parse_args()
 
