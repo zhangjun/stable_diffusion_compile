@@ -25,7 +25,7 @@ def symbolic_trace(
 
 
 if __name__ == "__main__":
-    model_path = "/dfs/comicai/jun.zhangg/models/sd_character/models/counterfeitXL_fix1024_0.4"
+    model_path = "/models/counterfeitXL"
 
     from diffusers import UNet2DConditionModel
     unet_model = UNet2DConditionModel.from_pretrained(model_path, subfolder="unet", torch_dtype=torch.float16)
